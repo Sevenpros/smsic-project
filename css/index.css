@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.desc-main{
+    min-height: 640px;
+    background: url(../images/home.JPG);
+    background-size: cover;
+    margin: 0.5%;
+    color: rgb(255, 255, 255);
+}
+.top-menu{
+    height: 70px;
+    text-align: right;
+    line-height: 70px;
+    display: flex;
+    margin: 0 5%;
+    padding: 0 5%;
+    font-size: 1.7vw;
+    color: rgb(185, 245, 19);
+    background: rgba(27, 27, 27, 0.74);
+}
+.menus{
+    margin: 0 2%;
+    font-family:'Copperplate Gothic Light';
+
+}
+.menus:hover{
+    cursor: pointer;
+    color: rgb(20, 185, 235);
+}
+.desc-title{
+    min-height: 100px;
+    text-align: center;
+    font-size: 10vw;
+    font-family: '28 Days Later';
+    color: rgb(202, 240, 33);
+}
+
+.logo img{
+    height: 320px;
+    width: 80%;
+}
+.desc{
+    min-height: 100px;
+    margin: 0 5%;
+    padding: 0 2%;
+    font-family: 'Century Gothic';
+    line-height: 2vw;
+    color: rgb(191, 228, 30);
+    background: rgba(100, 100, 100, 0.74);
+}
+.desc-footer{
+    min-height: 150px;
+    margin: 0 0.5% 0 0.5%;
+    background: rgb(4, 5, 1);
+    padding: 1% 3%;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
+}
+.about{
+    width: 60%;
+    padding: 1% 3%;
+    text-align: center;
+}
+.contact{
+    width: 30%;
+    padding: 1% 3%;
+    text-align: center;
+    color: rgb(177, 174, 174);
+}
+.social{
+    width: 30%;
+    padding: 1% 3%;
+    text-align: center;
+}
+
+.footer-par{
+    text-align: left;
+    color: rgb(177, 174, 174);
+    font-size: 1vw;
+    line-height: 25px;
+}
+.contact-par{
+    padding: 3% 0;
+    line-height: 30px;
+    font-size: 1.2vw;
+}
+.social-par{
+    padding-top: 3% ;
+    padding-left: 25%;
+    line-height: 30px;
+    font-size: 1.2vw;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    text-align: center;
+}
+.s-icon img{
+    height: 30px;
+    margin-right: 8px;
+}
+.icon{
+    margin: 0 8% 0 0;
+    border-radius: 50%;
+}
+.pictures{
+    min-height: 500px;
+    background: url(../images/project.JPG);
+    background-size: cover;
+    border: 0.2px solid white;
+    margin: 0 5%;
+
+}
+.icon:hover{
+    cursor: pointer;
+    background: white;
+
+}
+.footer-icons{
+    display: flex;
+    float: right;
+    margin-right: 7%;
+    
+}
+.emp{
+    margin: 10% 0 2% 0;
+    min-height: 100px;
+    padding: 1% ;
+    background: rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
+.empower{
+    font-size: 4.2vw;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.button{
+    background: #041a2e34;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.5vw;
+    margin-left: 35vw;
+}
+.button:hover{
+    cursor: pointer;
+    color: rgb(2, 76, 126);
+    background: rgba(255, 255, 255, 0.623);
+}
+.activities{
+    margin: 0 5%;
+    font-family: 'Century Gothic';
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+
+}
+.footer-title{
+    font-size: 1.5vw;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.membership{
+    margin: 0 5%;
+    font-family: 'Century Gothic';
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+
+}
+.projects{
+    margin: 0 5%;
+    font-family: 'Century Gothic';
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+
+}
+.projects-art{
+    display: flex;
+}
+.art-1{
+    width: 50%;
+    min-height: 300px;
+    padding: 1%;
+
+}
+.art-1 img{
+    height:350px;
+    width: 100%;
+}
+.art-2 img{
+    height:350px;
+    width: 100%;
+}
+.art-2{
+    width: 50%;
+    min-height: 300px;
+    padding: 1%;
+}
+.p-line{
+    display: flex;
+    margin:3% 0;
+}
+.line-1{
+    margin: 1% 0;
+    height: 10px;
+    width: 40%;
+    background: rgb(131, 130, 130);
+}
+.line-2{
+    margin: 1% 0;
+    height: 10px;
+    width: 40%;
+    background: rgb(131, 130, 130);
+}
+.p-title{
+    width: 20%;
+    padding: 0 3%;
+    text-align: center;
+    color: rgb(109, 109, 109);
+    font-size: 2vw;
+    font-family: 'Copperplate Gothic Light';
+    font-weight: bolder;
+}
+.parag{
+    font-size: 1.3vw;
+}
+.article{
+    display: flex;
+
+}
+.art-photo{
+    min-height: 200px;
+    width: 60%;
+}
+.art-photo img{
+    height:450px;
+}
+.art-desc{
+    width: 40%;
+    padding: 1%;
+    min-height:200px;
+}
+.art-title{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Copperplate Gothic Light';
+}
+
+.link{
+    color: rgb(5, 225, 233);
+    font-family: 1.4vw;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.link:hover{
+    cursor: pointer;
+    color: rgb(5, 93, 194);
+    text-decoration: underline;
+
+}
